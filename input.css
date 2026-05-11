@@ -7,3 +7,13 @@
     font-family: 'Inter', sans-serif;
   }
 }
+
+@media (orientation: landscape) and (max-height: 600px) {
+  .project-card p,
+  .project-card span {
+    font-size: 0.7rem;
+  }
+  .project-card h3 {
+    font-size: 1.1rem;
+  }
+}

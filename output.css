@@ -571,6 +571,10 @@ body {
   margin-right: auto;
 }
 
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -681,6 +685,10 @@ body {
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-start {
@@ -904,6 +912,17 @@ body {
   transition-duration: 150ms;
 }
 
+@media (orientation: landscape) and (max-height: 600px) {
+  .project-card p,
+  .project-card span {
+    font-size: 0.7rem;
+  }
+
+  .project-card h3 {
+    font-size: 1.1rem;
+  }
+}
+
 .hover\:scale-110:hover {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
@@ -1008,6 +1027,11 @@ body {
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
